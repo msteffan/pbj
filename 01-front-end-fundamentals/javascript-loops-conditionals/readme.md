@@ -12,10 +12,10 @@
 So we've already gone over the basics of Javascript. And today, we'll be highlighting the data type of boolean.
 
 ### T&T (3m)
-Go ahead and chat with your neighbor. Knowing about the boolean data type, how might we use this data type in order to execute conditionals and looping. Additionally, what advantages does that give us with regard to programming?
+Go ahead and chat with your neighbor. Knowing about the boolean data type, how might we use this data type in order to execute conditionals and looping? Additionally, what advantages does that give us with regard to programming?
 
 ## true vs false (15m)
-So we all know the boolean values of `true` and `false` But there is also a concept of "truthy" and "falsey" In Javascript, the following things are "falsey":
+We all know the boolean values of `true` and `false,` but there also are concepts of "truthy" and "falsey." In Javascript, the following things are "falsey":
 - false
 - 0 (zero)
 - "" (empty string)
@@ -52,7 +52,7 @@ Demonstrate comparison operators in node
 => false
 ```
 
-What is the differences between the last two? When using `===`, it checks for both the data type and value. `==` only checks for value. Under the hood, though, `==` converts the data type to the same data type and then executes comparison.
+What is the difference between the last two? When using `===`, it checks for both the data type and value. `==` only checks for value. Under the hood, though, `==` converts the data type to the same data type and then executes comparison.
 
 ## Conditionals (35m /w ex)
 
@@ -73,7 +73,7 @@ else{
 }
 ```
 
-Conditionals will always follow this pattern. There is a key word(if, else if, else). Followed by an expression that will evaluate to true or false in parentheses. Then followed by code to execute when condition is met.
+Conditionals will always follow this pattern. There is a key word (if, else if, else), followed by an expression that will evaluate to true or false in parentheses. Then, it is followed by code to execute when condition is met.
 
 What's wrong with the following code?:
 
@@ -106,7 +106,7 @@ for(var i = 0; i < 10; i++){
 ```
 The first part is the keyword `for`.
 Followed by 3 parts `;` separated in parentheses.
-- The first part instantiates the iteratee. Essentially gives you access to this value in your code block as i. It starts at 0 in this case.
+- The first part instantiates the iteratee. Essentially it gives you access to this value in your code block as i. It starts at 0 in this case.
 - The second part is the comparison expression. That means this code will continue to execute until this expression evaluates to false.
 - The third and final part is how much the iteratee is incremented after each execution of the loop
 
